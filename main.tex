@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Documento LaTex para escritura de tesis doctoral 
+%   del programa de Bioinformática y Biología de Sistemas
+%   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{thesis}
+
+% Agregar nombre de la titulo de la tesis, autor, nombre del programa de la tesis y tutor 
+\title{Adaptabilidad Fisiológica de cepas de \emph{Salmonella} que permanecen en la línea de producción de una granja de pollos de la Región Metropolitana: Predicciones ante potencial aparición de bacterias emergentes}
+\author{Gabriel Ignacio Krüger Carrasco}
+\tesis{Doctor en Bioinformática y Biología de Sistemas}
+\tutor{Claudia Paz Saavedra Sánchez}
+
+% Importacion de packages
+\usepackage{lipsum} % Eliminar lipsum y colocar texto propio
+\usepackage{titlesec} % Optimizar el identado de títulos y secciones del texto
+\usepackage{graphicx} % Usado para agregar gráficos o figuras
+\usepackage{algorithm} % Usado para agregar algoritmos
+\usepackage{algpseudocode} % Usado para agregar pseudocódigos
+\usepackage[backend=biber, style=apa, ]{biblatex} %Administra las referencias
+\addbibresource{references.bib}
+\usepackage{subcaption}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\begin{dedicatoria}
+Una dedicatoria corta.
+\end{dedicatoria}
+
+\begin{thanks}
+Un agradecimiento a todos
+\end{thanks}
+
+\tableofcontents
+\listoftables
+\listoffigures
+\listofalgorithms
+
+\mainmatter
+
+\input{Capitulos/0_Resumen}
+\input{Capitulos/1_Introduccion}
+\input{Capitulos/2_Hipotesis_Objetivos}
+\input{Capitulos/3_Materiales_Metodos}
+\input{Capitulos/4_Resultados}
+\input{Capitulos/5_Discusion}
+\input{Capitulos/6_Conclusion}
+
+%\nocite{*}
+\addcontentsline{toc}{chapter}{Bibliografía}
+\printbibliography
+
+\end{document}
