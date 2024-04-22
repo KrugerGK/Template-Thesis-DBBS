@@ -2,7 +2,6 @@
 %%%%%%%%
 %%%%%%%%    Clase Thesis
 %%%%%%%%    Autor: Gabriel Krüger C.
-%%%%%%%%    Contacto: g.krugercarrasco@gmail.com
 %%%%%%%%    Version: 0.8.0
 %%%%%%%%    Fecha: 2024-04-22
 %%%%%%%%
